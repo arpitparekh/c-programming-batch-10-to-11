@@ -128,6 +128,8 @@ main(){
         printf("\n%d is greater",c2);
     }
 
+    // assignment today
+
     int a2 = 100;
     int b2 = 45;
     int c2 = 5;

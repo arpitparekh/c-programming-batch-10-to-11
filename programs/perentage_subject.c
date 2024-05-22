@@ -44,7 +44,4 @@ main(){
         printf("\nGrade F\n");
     }
         
-
-    
-        
 }

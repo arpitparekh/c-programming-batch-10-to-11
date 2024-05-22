@@ -116,23 +116,35 @@ main(){
     }
 
 
-    int a2 = 100;
-    int b2 = 45;
-    int c2 = 5;
+    int a3 = 100;
+    int b3 = 45;
+    int c3 = 5;
 
-    if(a2>b2 && a2>c2){
-        printf("\n%d is greater",a2);
-    }else if(b2>c2){
-        printf("\n%d is greater",b2);
+    if(a3>b3 && a3>c3){
+        printf("\n%d is greater",a3);
+    }else if(b3>c3){
+        printf("\n%d is greater",b3);
     }else{
-        printf("\n%d is greater",c2);
+        printf("\n%d is greater",c3);
     }
 
-    // assignment today
+    a3>b3 && a3>c3 ? printf("\n%d is greater",a3) : b3>c3 ? printf("\n%d is greater",b3) : printf("\n%d is greater",c3);
+
+    // assignment today  // max of 4 numbers
 
     int a2 = 100;
-    int b2 = 45;
-    int c2 = 5;
-    int d2 = 56;
+    int b2 = 450;
+    int c2 = 500;
+    int d2 = 560;
+
+    if(a2>b2 && a2>c2 && a2>d2){
+        printf("\n%d is greater",a2);
+    }else if(b2>c2 && b2>d2){
+        printf("\n%d is greater",b2);
+    }else if(c2>d2){
+        printf("\n%d is greater",c2);
+    }else{
+        printf("\n%d is greater",d2);
+    }
 
 }

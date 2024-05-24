@@ -19,6 +19,5 @@ main(){
     }
 
     // a e i o u
-
-    // hello
+    
 }

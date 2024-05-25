@@ -6,14 +6,9 @@ main(){
     int n;
     scanf("%d",&n);
 
-    
-    // 100
+    for(int i=1;i<=10;i++){
 
-    int k = n;
+        printf("%d * %d = %d\n",n,i,n*i);  // multi plication table
 
-    while(k>=1){
-        printf("%d ",k);
-        k--;
     }
-
 }

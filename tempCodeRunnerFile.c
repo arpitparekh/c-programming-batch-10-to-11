@@ -1,1 +1,1 @@
- printf("\nCharacter b");
+3

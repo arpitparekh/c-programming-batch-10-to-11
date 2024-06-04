@@ -16,21 +16,25 @@
 
 main(){
 
+    int n;
+    printf("No of Rows\n");
+    scanf("%d",&n);
 
-    for(int i=1; i<=5; i++){  // 9 7 5 3 1 
+    for(int i=1; i<=n; i++){  // 9 7 5 3 1 
 
-        for(int k=2; k<=i; k++){
+        for(int k=2; k<=i; k++){  // space
             printf(" ");
         } 
 
-        for(int j = 1;j<=11-(2*i);j++){  // 10 >= 2  // 9 >=3  // 8>=5
-            if(i==1 || j==1 || j==11-(2*i)){
+        for(int j = 1;j <= (2*n-1)-(2*i) ;j++){  // 10 >= 2  // 9 >=3  // 8>=5  // * mate
+
+            if(i==1 || j==1 || j== (2*n-1)-(2*i) ){
                 printf("*");
             }else{
                 printf(" ");
             }
         }
-        
+
         printf("\n");
 
     }

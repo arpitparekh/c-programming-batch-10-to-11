@@ -15,7 +15,7 @@ main(){
                  printf("  ");
             }
         }
-
+    
         for(int k=5;k>=(i*2)-4;k--){
             printf(" ");
         }

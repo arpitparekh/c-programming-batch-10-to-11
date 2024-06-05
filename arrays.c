@@ -2,7 +2,7 @@
 
 main(){
 
-    // array  // is group of values of simiar datatype
+    // array  // is group of values of simiar datatype   / one dimentinal array
     // array is fixed size
 
     // int // declaration of array
@@ -16,6 +16,8 @@ main(){
 
     int arr[7];
 
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
     printf("%d \n",jimit[6]);
 
     printf("----------------\n");
@@ -28,6 +30,7 @@ main(){
 
     printf("----------------\n");
 
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     printf("Enter the size of array\n");
 
@@ -52,5 +55,6 @@ main(){
 
     printf("----------------\n");
 
-
+    int arr5[][]={{1,2},{1,3},{4,5},{7,8}};
+    
 }

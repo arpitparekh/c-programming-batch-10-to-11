@@ -8,7 +8,6 @@ main(){
     // a = b;
     // b = temp;
 
-
     // sort the array
 
     // 1 4 6 4 3 6 1 2
@@ -22,7 +21,7 @@ main(){
         printf("%d ",arr[i]);
     }
 
-    for(int i=0;i<13;i++){ // 0
+    for(int i=0;i<13;i++){   // 0
 
        for(int j=i+1;j<13;j++){ // 34 ..9
 

@@ -13,7 +13,47 @@ main(){
         printf("\n");
     }
 
-    printf("%d",arr1[1][0]);
+    // printf("%d",arr1[1][0]);
 
+    printf("Enter the size of array\n");
+    int m,n;
+    scanf("%d%d",&m,&n);
+
+    int val[m][n];
+    int val2[m][n];
+    int val3[m][n];
+
+    printf("Enter values in first array\n");
+
+    for(int i=0;i<m;i++){
+        for(int j=0;j<n;j++){
+            printf("[%d][%d] => ",i,j);
+            scanf("%d",&val[i][j]);
+        }
+    }
+
+    printf("Enter values in second array\n");
+
+    for(int i=0;i<m;i++){
+        for(int j=0;j<n;j++){
+            printf("[%d][%d] => ",i,j);
+            scanf("%d",&val2[i][j]);
+        }
+    }
+
+    for(int i=0;i<m;i++){
+        for(int j=0;j<n;j++){
+           val3[i][j] = val[i][j]+val2[i][j];
+        }
+    }
+
+    printf("Sum of 2 matrix is \n");  //sum of matrix
+
+    for(int i=0;i<m;i++){
+        for(int j=0;j<n;j++){
+            printf("%d ",val3[i][j]);
+        }
+        printf("\n");
+    }
 
 }

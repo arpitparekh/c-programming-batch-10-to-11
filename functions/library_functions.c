@@ -2,12 +2,11 @@
 #include<math.h>
 #include<stdlib.h>
 #include<ctype.h>
-#include<windows.h>
 
 main(){
 
     // printf()
-    // scanf()
+    // scanf()re
 
     printf("sqrt function %.2lf\n",sqrt(90));
     printf("cbrt function %.2lf\n",cbrt(8));
@@ -35,5 +34,4 @@ main(){
 
     // MessageBox(NULL, "Hello, World!", "My First Message Box", MB_OK);
 
-    
 }

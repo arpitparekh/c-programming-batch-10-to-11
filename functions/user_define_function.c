@@ -1,29 +1,31 @@
 #include <stdio.h>
 
-display()
+#define PI 3.14  // global constant
+
+int a = 12; // global variable
+
+void display()
 { // no parameter  // no return type  // function declaration
     printf("This is display function\n");
 }
 
-displayNumber(float i)
+void displayNumber(float i)
 { // with paramter // no return
     printf("values passed in function is %f\n", i);
 }
 
-sum(int a, int b)
+void sum(int a, int b)
 {
     printf("Sum of %d and %d is %d\n", a, b, a + b);
 }
 
-// 1213 / 10 = 121
-
-checkNoOfDigit(int num1, int num2) // no return type with parameter
+void checkNoOfDigit(int num1, int num2) // no return type with parameter
 {
 
     // 1223 / 10 = 122
     // 122 / 10 = 12
     // 12 / 10 = 1
-    // 1 /10 = 0
+    // 1 / 10 = 0
 
     int count1 = 0;
     int count2 = 0;
@@ -61,8 +63,10 @@ float division(float a, float b)
     return a / b;
 }
 
-int main()
+void main()
 {
+
+    int a = 45;  // local vaiable
 
     // functions
     // block of code that runs when we called it
@@ -104,6 +108,4 @@ int main()
     float k = f * division(1.2, 2.3); // fucntion as value
 
     printf("value is %f", k);
-
-    return 0;
 }

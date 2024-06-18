@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 void printArray(int* p,int size){
     for(int i = 0; i < size; i++,p++){
         printf("%d ", *p);
@@ -9,7 +8,6 @@ void printArray(int* p,int size){
 
 void main()
 {
-
     // pointers
     // pointers point to the locaion
     // pointers hold the address of the variable
@@ -47,4 +45,5 @@ void main()
     //     printf("\n[%p]=> %d", ptr,*ptr);
     //     ptr++;
     // }
+
 }

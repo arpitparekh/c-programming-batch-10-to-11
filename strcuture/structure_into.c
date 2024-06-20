@@ -2,10 +2,11 @@
 #include<string.h>
 
 struct Person{                     // blueprint
-    char name[20];  // string
-    int age;        // int
-    float salary;   // float
-}p1,p2;
+    char name[20];  // string  // 20B
+    int age;        // int    // 4B
+    float salary;   // float  // 4B
+
+}p1,p2;   // 20B  // structure : 28B
 
 void main(){
 

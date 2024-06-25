@@ -48,7 +48,6 @@ void main(){
         fprintf(ptr, "GPA : %.2f\n", s2.gpa);
         fclose(ptr);
     }
-
 }
 
 */
@@ -62,7 +61,7 @@ void main(){
 
     FILE *ptr;
 
-    ptr = fopen("/home/arpit-parekh/c_files/student_data.txt", "r");
+    ptr = fopen("/home/arpit-parekh/c_files/c_write.txt", "r");
     if (ptr == NULL)
     {
         printf("File Not Found\n");
@@ -72,8 +71,11 @@ void main(){
         printf("File Found\n");
 
         char str[1000];
+        
         while(fgets(str, sizeof(str), ptr) != NULL){
             printf("%s", str);
         }
     }
+
+    // file seek pending
 }
